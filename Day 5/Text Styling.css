@@ -1,0 +1,48 @@
+p{
+        color: red;
+        text-indent: 100px;
+        text-transform: capitalize;
+        text-transform: lowercase;
+        text-transform: uppercase;
+        text-transform: none;
+        text-decoration: overline;
+        text-decoration: underline;
+        text-shadow: 10px 10px 10px blue;
+        /* letter-spacing: 1px; */
+        word-spacing: 10px;
+        line-height: 30px;
+    }
+
+h1{
+    text-align: center;
+    /* text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: justify; */
+}
+
+a{
+    /* text-decoration: none; */
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-style: dotted;
+    text-decoration-style: double;
+    text-decoration-style: dashed;
+}
+
+h2{
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    /* overflow: scroll; */
+    /* overflow: visible; */
+    /* overflow: auto;  */
+    resize: horizontal; 
+    resize: vertical;
+    resize: both;
+    /* text-wrap:nowrap; */
+    /* text-overflow: ellipsis; */
+    text-overflow:clip;
+}

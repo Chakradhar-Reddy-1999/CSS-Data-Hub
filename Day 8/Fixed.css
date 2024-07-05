@@ -1,0 +1,27 @@
+ol{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: 5px solid red;
+    height: fit-content;
+    width: fit-content;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: fixed; */
+    position: sticky;
+    width: 96.5%;
+    top: 0%;
+}
+main{
+    border: 2px solid;
+    height: 90vh;
+    background-image: linear-gradient(red, green, crimson, blue);
+}
+
+p{
+    text-transform: capitalize;
+}

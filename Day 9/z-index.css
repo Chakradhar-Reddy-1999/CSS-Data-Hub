@@ -1,0 +1,53 @@
+#demo1{
+    border: 2px solid;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    position: absolute;
+    z-index: 2222222222222222222222222222;
+} 
+
+#demo2{
+    border: 2px solid;
+    height: 250px;
+    width: 250px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 45px;
+    left: 80px;
+    Z-index: 2222222;
+}
+
+#demo3{
+    border: 2px solid;
+    height: 250px;
+    width: 250px;
+    background-color: pink;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    z-index: -222222222222222222222222222222;
+}
+
+h1{
+    color: red;
+    position: absolute;
+    top: 330px;
+}
+
+h1:hover{
+    /* opacity: 0; */
+    /* opacity: 1; */ /*1 is default*/
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 350px;
+    /* z-index: 10; */
+    z-index: -10;
+}
+        
